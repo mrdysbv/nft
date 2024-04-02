@@ -22,7 +22,7 @@
 				playsinline
 				crossOrigin="anonymous"
 				id="arvideo">
-				<source src="https://avo-content-dev.s3.amazonaws.com/videos/bg_1588085276090.mp4" type='video/mp4'>
+				<source src="https://raw.githubusercontent.com/mrdysbv/nft/master/ARnft/Data/vid.mp4" type='video/mp4'>
 			</video>
 
 		<script src="../resources/three.min.js"></script>
@@ -32,7 +32,7 @@
 		<script>
 			let width = 640;
       let height = 480;
-			ARnft.ARnft.init(width, height, ["ARnft/DataNFT/pinball"], ['pinball'], 'config.json', true)
+			ARnft.ARnft.init(width, height, ["ARnft/DataNFT/guitar"], ['guitar'], 'config.json', true)
 				.then((nft) => {
 					document.addEventListener('containerEvent', function (ev) {
 	
